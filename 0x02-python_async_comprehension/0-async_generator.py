@@ -16,9 +16,9 @@ async def async_generator() -> float:
         yield random.uniform(1, 10)
 
 
-async def main():
-    """list comprehension of async"""
+#async def main():
+ #   """list comprehension of async"""
 
-    results = [item async for item in async_generator()]
+  #  results = [item async for item in async_generator()]
 
-    print(results)
+   # print(results)

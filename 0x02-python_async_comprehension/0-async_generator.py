@@ -14,11 +14,3 @@ async def async_generator() -> float:
     for _ in range(10):
         await asyncio.sleep(1)
         yield random.uniform(1, 10)
-
-
-#async def main():
- #   """list comprehension of async"""
-
-  #  results = [item async for item in async_generator()]
-
-   # print(results)
